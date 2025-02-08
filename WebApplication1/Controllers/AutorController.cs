@@ -1,8 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System.Reflection;
-using System.Reflection.Metadata.Ecma335;
-using System.Xml.Linq;
+﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Dto.Autor;
 using WebApplication1.Models;
 using WebApplication1.Services.Autor;
@@ -17,7 +13,7 @@ namespace WebApplication1.Controllers
         public AutorController(IAutorInterface autorInterface)
         {
             _autorInterface = autorInterface;
-            
+
         }
 
         [HttpGet("ListarAutores")]

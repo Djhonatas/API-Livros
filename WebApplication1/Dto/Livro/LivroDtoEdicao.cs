@@ -1,4 +1,4 @@
-﻿using WebApplication1.Models;
+﻿using WebApplication1.Dto.Vinculo;
 
 namespace WebApplication1.Dto.Livro
 {
@@ -7,6 +7,6 @@ namespace WebApplication1.Dto.Livro
         public int Id { get; set; }
         public string Titulo { get; set; }
         //o livro terá um autor
-        public AutorModel Autor { get; set; }
+        public AutorVinculoDto Autor { get; set; }
     }
 }
